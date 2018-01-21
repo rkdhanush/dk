@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-int a=10;
-if(a>0)
+int c=10;
+if(c>0)
 printf("positive");
 getch();
 }
