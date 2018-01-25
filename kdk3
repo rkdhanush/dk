@@ -1,21 +1,20 @@
 #include<stdio.h>
-#include<conio.h>
-int main()
+void main()
 {
 int a,b,c;
-int largest;
 
 printf("enter three numbers 1 2 3:");
 scanf("%d%d%d",&a,&b,&c);
-
 if(a>b && a>c)
-largest=a;
+{
+printf("largest=a");
+}
 else if(b>a && b>c)
-largest=b;
+{
+printf("largest=b");
+}
 else
-largest=c;
-
-printf("largest number is = %d",largest);
-
-return0;
+{
+printf("largest=c");
+}
 }
