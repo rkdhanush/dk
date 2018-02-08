@@ -1,16 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int i,a;
+int i,a,b;
 printf("enter the value a");
 scanf("%d",&a);
-for(i=2;i<=a;i++)
+printf("enter the value b");
+scanf("%d",&b);
+for(i=a;i<=b;i++)
 {
-if(a%i==0)
-break;
+if(i%2==1)
+printf("%d",i);
 }
-if(a==i)
-printf("the number is prime %d",a);
-else
-printf("the number is not a prime number %d",a);
 }
