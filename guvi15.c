@@ -2,13 +2,13 @@
 void main()
 {
 char str[10];
-int n,i;
+int n,j;
 printf("enter the string");
 scanf("%s",&str);
 n=strlen(str);
-for(i=0;i<n;i++)
+for(j=0;j<n;j++)
 {
-if(str[i]>='0' && str[i]<='9')
+if(str[j]>='0' && str[j]<='9')
 {
 printf("\nyes");
 } 
