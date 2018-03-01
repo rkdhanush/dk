@@ -12,5 +12,5 @@ if(str[i]==' ')
 count=count+1;
 }
 }
-printf("\n no of words %d",count);
+printf("\n no of space %d",count);
 }
