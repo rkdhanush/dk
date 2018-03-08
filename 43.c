@@ -3,7 +3,7 @@
 int main(void) 
 {
 	char str1[50],str2[50];
-	int i,j;
+	int i,k;
 	printf("enter the string1:");
 	scanf("%s",str1);
 	printf("\n enter the string2:");
@@ -12,7 +12,7 @@ int main(void)
 	{
 		
 	}
-	for(j=0;str2[j]!='\0';j++)
+	for(k=0;str2[k]!='\0';k++)
 	{
 		str1[i]=str2[j];
 		i++;
